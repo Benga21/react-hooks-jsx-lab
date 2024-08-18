@@ -1,4 +1,8 @@
 module.exports = {
-    setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
-  };
+  // other configurations
+  moduleNameMapper: {
+    '\\.(png|jpg|jpeg|gif|svg)$': '<rootDir>/__mocks__/fileMock.js',
+  },
+};
+
   
