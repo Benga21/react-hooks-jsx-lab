@@ -1,10 +1,8 @@
 import React from "react";
-
-// Define your variables here or import them if they're from another file
-const name = "Liza"; // Replace with actual name
-const city = "New York"; // Replace with actual city
+import { name, city } from "../data/data.js";
 
 function Home() {
+  // update the JSX being returned!
   return (
     <div id="home">
       <h1 style={{ color: "firebrick" }}>
@@ -15,4 +13,3 @@ function Home() {
 }
 
 export default Home;
-
